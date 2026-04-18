@@ -9,6 +9,7 @@ const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const links = [
+    { href: "/", label: t("Acceuil", "Home") },
     { href: "#services", label: t("Services", "Services") },
     { href: "#about", label: t("À propos", "About") },
     { href: "#stats", label: t("Chiffres", "Stats") },

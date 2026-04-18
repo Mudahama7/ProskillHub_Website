@@ -11,7 +11,7 @@ const HeroSection = () => {
       {/* Background image with overlay */}
       <div className="absolute inset-0">
         <img src={heroTeam} alt="" className="w-full h-full object-cover opacity-20" />
-        <div className="absolute inset-0 gradient-navy opacity-80" />
+        <div className="absolute inset-0 gradient-navy opacity-20" />
       </div>
 
       {/* Decorative elements */}
